@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+#user-list {
+  padding-top: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 100px;
+  div {
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 10px rgb(230, 229, 229);
+  }
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: aliceblue;
+  box-shadow: 3px 3px 10px rgb(230, 229, 229);
+}
+.gitUser {
+  padding: 20px;
+  width: 700px;
+
+  input {
+    height: 30px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  button {
+    height: 30px;
+    width: 100px;
+  }
+}
+#list {
+  padding: 20px;
+  width: 700px;
+
+  img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  a {
+    color: black;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .first {
+    margin-bottom: 15px;
+  }
+}
